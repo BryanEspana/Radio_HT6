@@ -17,6 +17,9 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
         vista Vista = new vista();
+        controlador Control = new controlador();
+        
+        Control.Ejecutar();
     }
     
 }

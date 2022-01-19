@@ -10,5 +10,8 @@ package com.uvg.ayed;
  * @author Bryan
  */
 public class controlador {
-    
+    vista Vista = new vista();
+    public void Ejecutar(){
+        Vista.bienvenida();
+    }
 }
