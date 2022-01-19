@@ -4,13 +4,17 @@ package com.uvg.ayed;
  *
  * @author Bryan
  */
-public class Radio  IRadio{
+public class Radio implements IRadio{
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        @Override
+    
+    
+}
+
+    @Override
     public boolean getStatus() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -74,6 +78,4 @@ public class Radio  IRadio{
     public void seek() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    }
-    
 }
