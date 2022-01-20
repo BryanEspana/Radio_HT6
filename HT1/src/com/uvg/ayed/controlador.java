@@ -9,9 +9,15 @@ package com.uvg.ayed;
  *
  * @author Bryan
  */
-public class controlador {
+public class controlador extends Radio {
     vista Vista = new vista();
+    Radio r = new Radio();
     public void Ejecutar(){
+        boolean continuar = true;
+        while(continuar){
         Vista.bienvenida();
+        }
+        
     }
+
 }
