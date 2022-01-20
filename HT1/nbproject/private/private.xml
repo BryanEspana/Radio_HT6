@@ -3,11 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< Updated upstream
             <file>file:/C:/Users/Bryan/OneDrive%20-%20Universidad%20del%20Valle%20de%20Guatemala/Documentos/UVG/SEMESTRE%20III/Algoritmos%20y%20Estructura%20de%20Datos/Hoja%20de%20trabajo%201/RepositorioRadio/Radio_HT6/HT1/src/com/uvg/ayed/Radio.java</file>
             <file>file:/C:/Users/Bryan/OneDrive%20-%20Universidad%20del%20Valle%20de%20Guatemala/Documentos/UVG/SEMESTRE%20III/Algoritmos%20y%20Estructura%20de%20Datos/Hoja%20de%20trabajo%201/RepositorioRadio/Radio_HT6/HT1/src/com/uvg/ayed/controlador.java</file>
             <file>file:/C:/Users/Bryan/OneDrive%20-%20Universidad%20del%20Valle%20de%20Guatemala/Documentos/UVG/SEMESTRE%20III/Algoritmos%20y%20Estructura%20de%20Datos/Hoja%20de%20trabajo%201/RepositorioRadio/Radio_HT6/HT1/src/com/uvg/ayed/main.java</file>
             <file>file:/C:/Users/Bryan/OneDrive%20-%20Universidad%20del%20Valle%20de%20Guatemala/Documentos/UVG/SEMESTRE%20III/Algoritmos%20y%20Estructura%20de%20Datos/Hoja%20de%20trabajo%201/RepositorioRadio/Radio_HT6/HT1/src/com/uvg/ayed/IRadio.java</file>
             <file>file:/C:/Users/Bryan/OneDrive%20-%20Universidad%20del%20Valle%20de%20Guatemala/Documentos/UVG/SEMESTRE%20III/Algoritmos%20y%20Estructura%20de%20Datos/Hoja%20de%20trabajo%201/RepositorioRadio/Radio_HT6/HT1/src/com/uvg/ayed/vista.java</file>
+=======
+            <file>file:/C:/Users/HP/Desktop/Universidad/Segundo%20año/Algoritmos%20y%20estructura%20datos/ht1/Radio_HT6/HT1/src/com/uvg/ayed/main.java</file>
+            <file>file:/C:/Users/HP/Desktop/Universidad/Segundo%20año/Algoritmos%20y%20estructura%20datos/ht1/Radio_HT6/HT1/src/com/uvg/ayed/vista.java</file>
+            <file>file:/C:/Users/HP/Desktop/Universidad/Segundo%20año/Algoritmos%20y%20estructura%20datos/ht1/Radio_HT6/HT1/src/com/uvg/ayed/Radio.java</file>
+            <file>file:/C:/Users/HP/Desktop/Universidad/Segundo%20año/Algoritmos%20y%20estructura%20datos/ht1/Radio_HT6/HT1/src/com/uvg/ayed/controlador.java</file>
+            <file>file:/C:/Users/HP/Desktop/Universidad/Segundo%20año/Algoritmos%20y%20estructura%20datos/ht1/Radio_HT6/HT1/src/com/uvg/ayed/IRadio.java</file>
+>>>>>>> Stashed changes
         </group>
     </open-files>
 </project-private>

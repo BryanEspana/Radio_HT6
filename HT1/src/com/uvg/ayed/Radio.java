@@ -10,20 +10,36 @@ package com.uvg.ayed;
  * @author Bryan
  */
 public class Radio implements IRadio{
-
+private boolean Rstate = false;
+private boolean Estate = false;
     @Override
     public boolean getStatus() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return Rstate;
     }
 
     @Override
     public void switchButton() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Rstate = Rstate ? false : true;
+        if(Rstate)
+            System.out.println("Radio Encendido");
+        else{
+            System.out.println("Radio Apagado");
+        }
     }
 
     @Override
     public void changeMode() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Estate = Estate ? false : true;
+        if(Rstate){
+        if(Estate)
+            System.out.println("Radio en FM");
+        else{
+            System.out.println("Radio en AM");
+        }
+        }
+        else{
+            System.out.println("Debe encender la radio");
+        }
     }
 
     @Override
