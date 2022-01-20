@@ -15,11 +15,7 @@ public class vista {
     Radio r = new Radio();
     public void bienvenida(){
         System.out.println("----------RADIO----------\n"
-<<<<<<< Updated upstream
-                        +  "1. Encender/Apagar Radio \n"
-=======
                         +  "1.Encender Radio \n"
->>>>>>> Stashed changes
                         +  "2. Cambia de AM a FM o AM\n" 
                         +  "3. Siguiente emisora\n" 
                         +  "4. Guardar Emisora (Maximo 12)\n" 
@@ -38,18 +34,23 @@ public class vista {
                      break;
              }
     }
-    }
-    public void Error(){
+    
+     public void Error(){
         System.out.println("ERROR. intentelo de nuevo");
     }
 
-    public void Encendido(){
+        public void Encendido(){
         System.out.println("El Radio Esta encendido");
     }
-    
+
     public void Apagado(){
         System.out.println("El Radio Esta Apagado");
     }
+    }
+   
     
+    
+
+
 
 
