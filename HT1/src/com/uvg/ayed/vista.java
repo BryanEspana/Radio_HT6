@@ -14,12 +14,9 @@ public class vista {
     Scanner intscanner = new Scanner (System.in);
     Radio r = new Radio();
     public void bienvenida(){
-        System.out.println("----------RADIO----------\n"
-<<<<<<< Updated upstream
+        System.out.println("--------------------RADIO---------------------\n"
                         +  "1. Encender/Apagar Radio \n"
-=======
                         +  "1.Encender Radio \n"
->>>>>>> Stashed changes
                         +  "2. Cambia de AM a FM o AM\n" 
                         +  "3. Siguiente emisora\n" 
                         +  "4. Guardar Emisora (Maximo 12)\n" 
@@ -37,7 +34,7 @@ public class vista {
                      r.switchButton();
                      break;
              }
-    }
+    
     }
     public void Error(){
         System.out.println("ERROR. intentelo de nuevo");
@@ -51,5 +48,6 @@ public class vista {
         System.out.println("El Radio Esta Apagado");
     }
     
+}
 
 
