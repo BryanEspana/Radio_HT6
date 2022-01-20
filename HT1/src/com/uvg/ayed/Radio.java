@@ -12,6 +12,10 @@ package com.uvg.ayed;
 public class Radio implements IRadio{
 private boolean Rstate = false;
 private boolean Estate = false;
+private int EmisoraAM = 530;
+private double EmisoraFM = 87.9;
+private double EmisoraFloatFM;
+
     @Override
     public boolean getStatus() {
         return Rstate;
@@ -44,7 +48,16 @@ private boolean Estate = false;
 
     @Override
     public int getActualMode() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if(Rstate){
+        if(Estate)
+            getActualFreqFM();
+        else{
+            getActualFreqAM();
+        }
+        }else{
+            System.out.println("Debe encender la radio");   
+        }
+    return EmisoraAM;
     }
 
     @Override
@@ -64,17 +77,39 @@ private boolean Estate = false;
 
     @Override
     public double getSavedFreqFM(int slot) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
     public int getActualFreqAM() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        while(EmisoraAM >= 520 && EmisoraAM <= 1610)
+        {
+            EmisoraAM = EmisoraAM +10;
+            System.out.println("Esta escuchando: "+EmisoraAM+" AM"); 
+            if(EmisoraAM == 1610){
+                EmisoraAM =520;
+            }
+        break;
+        }
+        
+
+    return EmisoraAM;
     }
 
     @Override
     public double getActualFreqFM() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         while(EmisoraFM >= 87.7 && EmisoraFM <= 107.9)
+         {
+            EmisoraFM = EmisoraFM +0.2;
+            EmisoraFloatFM = Math.round(100 * EmisoraFM) / 100d;
+            System.out.println("Esta escuchando: "+EmisoraFloatFM+" FM");
+            if(EmisoraFloatFM == 107.9){
+                EmisoraFM =87.7;
+            }
+            break;
+         }
+
+    return EmisoraFM;
     }
 
     @Override
@@ -89,6 +124,10 @@ private boolean Estate = false;
 
     @Override
     public void seek() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private int parseInt(int EmisoraRadio) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
