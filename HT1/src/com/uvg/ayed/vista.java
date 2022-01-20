@@ -14,7 +14,12 @@ public class vista {
     Scanner intscanner = new Scanner (System.in);
     Radio r = new Radio();
     public void bienvenida(){
+<<<<<<< HEAD
         System.out.println("----------RADIO----------\n"
+=======
+        System.out.println("--------------------RADIO---------------------\n"
+                        +  "1. Encender/Apagar Radio \n"
+>>>>>>> main
                         +  "1.Encender Radio \n"
                         +  "2. Cambia de AM a FM o AM\n" 
                         +  "3. Siguiente emisora\n" 
@@ -33,9 +38,15 @@ public class vista {
                      r.switchButton();
                      break;
              }
+<<<<<<< HEAD
     }
     
      public void Error(){
+=======
+    
+    }
+    public void Error(){
+>>>>>>> main
         System.out.println("ERROR. intentelo de nuevo");
     }
 
@@ -50,6 +61,7 @@ public class vista {
    
     
     
+}
 
 
 
