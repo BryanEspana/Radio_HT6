@@ -1,16 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructura de Datos
+ * Javier Prado 21486 | Bryan Espana 21550 | Angel Perez - 21298
  */
 package com.uvg.ayed;
 
 /**
  *
- * @author Bryan
+ * @author Bryan|Javier|Angel
  */
-public class controlador extends Radio {
-    vista Vista = new vista();
+public class controlador extends Radio { 
+    vista Vista = new vista(); //se llama a clase vista
     Radio r = new Radio();
     public void Ejecutar(){
         boolean continuar = true;

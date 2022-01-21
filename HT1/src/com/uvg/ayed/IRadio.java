@@ -1,10 +1,12 @@
-/**
- * 
+/*
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructura de Datos
+ * Javier Prado 21486 | Bryan Espana 21550 | Angel Perez - 21298
  */
 package com.uvg.ayed;
 
 /**
- * @author MAAG
+ * @author Bryan|Javier|Angel
  *
  */
 public interface IRadio {
